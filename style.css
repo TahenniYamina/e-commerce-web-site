@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    font-family: "League Spartan", sans-serif;;
+}
+
+.section1{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: flex-start;
+    gap: 40px;
+
+}
+.box1, .box2, .box3, .box4, .box5, .box6  {
+    border: 1px solid rgb(200, 235, 200);
+    box-shadow: 10px;
+    border-radius: 7px;
+}
+
+.box1 button{
+    border-radius: 5px;
+    border-color: rgb(222, 227, 228);
+    height: 25px;
+    border: 1px solid ;
+    background-color: rgb(247, 203, 210);
+    color: rgb(52, 121, 82);
+    
+}
+
+.box2 button{
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(222, 227, 228);
+    height: 25px;
+    background-color: rgb(132, 212, 108);
+    color: rgb(52, 121, 82);
+}
+
+.box3 button{
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(222, 227, 228);
+    height: 25px;
+    background-color: rgb(185, 218, 245);
+    color: rgb(52, 121, 82);
+}
+
+.box4 button{
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(222, 227, 228);
+    height: 25px;
+    background-color: rgb(204, 185, 245);
+    color: rgb(52, 121, 82);
+}
+.box5 button{
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(222, 227, 228);
+    height: 25px;
+    background-color: rgb(238, 188, 230);
+    color: rgb(52, 121, 82);
+}
+
+.box6 button{
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(222, 227, 228);
+    height: 25px;
+    background-color: rgb(235, 227, 201);
+    color: rgb(52, 121, 82);
+}
+.title{
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.sous{
+    color: rgb(142, 141, 141);
+    text-align: center;
+}
+.soust{
+    color: grey
+}
+
+
+.box img{
+    border-radius: 20px;
+    width: 180px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.box{
+    border: 1px solid rgb(243, 237, 237);
+    border-radius: 20px;
+    width: 200px;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px 5px rgb(236, 233, 233);
+}
+p, span, h1{
+    padding-left: 10px;
+}
+.prix{
+    color: rgb(16, 137, 16);
+    padding-right: 80px;
+  
+}
+.clothes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.repaires{
+    margin-top: 50px;
+    background-image: url(photos/b2\ \(1\).jpg);
+    background-size: cover;
+    text-align: center;
+
+}
+.petit{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.grand{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+}
+.tap{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.tap:hover{
+    background-color: rgb(39, 114, 39);
+}
+
+.yellow{
+    background-image: url(photos/b16.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 30px;
+}
+.yellow button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
+.season{
+    background-image: url(photos/b10.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    margin: 20px;
+    color: white;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.season button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.sale{
+    background-image: url(photos/b7.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.footwear{
+    background-image: url(photos/b3.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.shirt{
+    background-image: url(photos/b18.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+}
+.red{
+    color: rgb(108, 4, 4);
+    margin: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.tata{
+    width: 90px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.p{
+    margin: 20px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+    line-height: 30px;
+    background-image: url(photos/hero2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    font-size: x-large;
+}
+.trade{
+    color: white;
+    margin-bottom: 20px;
+}
+.b{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+}
+.special{
+    color: rgb(255, 222, 7);
+}
+.avr{
+    color: grey;
+}
+footer{
+    background-image: url(photos/b14\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(5, 3, 79);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+.wh{
+    color: white;
+    margin: 17px;
+}
+.b1{
+    color: grey;
+    width: 270px;
+    height: 35px;
+    background-color: rgb(213, 213, 208);
+    border: none;
+    border-radius: 5px;
+}
+.b2{
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: rgb(20, 97, 92);
+    border-radius: 5px;
+}
+.b3{
+    gap: none;
+}
+.last{
+    color: grey;
+    text-align: center;
+    margin: 10px;
+}
